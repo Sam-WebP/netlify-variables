@@ -29,3 +29,5 @@ document.addEventListener('DOMContentLoaded', function() {
     updateCompanyName();
     updatePhoneNumber();
 });
+
+console.log('End of the site-variables file');
