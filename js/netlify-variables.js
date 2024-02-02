@@ -1,8 +1,8 @@
 const fs = require('fs');
-const path = path.join(__dirname, 'site-variables.js');
+const path = require('path');
 
 // Path to your JS file
-const filePath = path.join(__dirname, 'path', 'to', 'your', 'script.js');
+const filePath = path.join(__dirname, 'site-variables.js');
 
 // Read the file
 fs.readFile(filePath, 'utf8', (err, data) => {
