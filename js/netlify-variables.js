@@ -11,7 +11,7 @@ fs.readFile(filePath, 'utf8', (err, data) => {
   }
 
   // Replace placeholders with environment variable values
-  let result = data.replace(/{{COMPANY_NAME}}/g, process.env.COMPANY_NAME)
+  let result = data.replace(/{{COMPANY_NAME}}/g, 'testing name now')
                    .replace(/{{PHONE_NUMBER}}/g, process.env.PHONE_NUMBER);
 
   // Write the file back
