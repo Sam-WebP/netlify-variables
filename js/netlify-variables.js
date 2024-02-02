@@ -1,3 +1,4 @@
+console.log('Netlify Variables File Loaded');
 const fs = require('fs');
 const path = require('path');
 

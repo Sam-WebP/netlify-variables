@@ -1,5 +1,5 @@
 // Define your variables
-var companyName = process.env.COMPANY_NAME;
+var companyName = "{{COMPANY_NAME}}";
 var phoneNumber = "{{PHONE_NUMBER}}";
 
 // Function to update company name

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "prebuild": "node js/site-variables.js",
+    "prebuild": "node js/netlify-variables.js",
     "build": "echo \"Build command goes here\""
   },
   "keywords": [],
